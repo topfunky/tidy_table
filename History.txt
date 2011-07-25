@@ -1,0 +1,21 @@
+== 0.0.5 / 2007-11-14
+
+* Added :title option in initializer. Emits header row spanning all columns.
+
+== 0.0.4 / 2007-06-27
+
+* Changed default table class name to 'tidy_table' for consistency.
+* Added ability to return a Hash from the block passed to TidyTable#to_html.
+  This allows the :id or :class of the row to be set along with the :data.
+
+== 0.0.3 / 2007-06-24
+
+* Added automatic last_column_class to header row also
+
+== 0.0.2 / 2007-06-24
+
+* Added automatic last_column_class and related options
+
+== 0.0.1 / 2007-06-20
+
+* Initial release
