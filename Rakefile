@@ -1,3 +1,6 @@
+Dir['vendor/**/lib'].each do |dir|
+  $: << dir
+end
 
 require 'rubygems'
 require 'isolate/now'
