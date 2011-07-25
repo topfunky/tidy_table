@@ -1,0 +1,6 @@
+
+env :development, :test do
+  gem "hoe"
+  gem "rspec", "1.3.0"
+end
+
